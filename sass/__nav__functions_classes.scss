@@ -1,0 +1,17 @@
+/*Aparecer menu*/
+.show {
+  left: 0;
+}
+
+/*Active menu*/
+.active {
+  color: $first-color;
+}
+
+@function px-to-rem($size){
+  $value: $size / 16px;
+  @return #{$value}rem;
+}
+
+.nav-colored { background-color:#f0f0f0; }
+.nav-transparent { background-color:#ffffff;}

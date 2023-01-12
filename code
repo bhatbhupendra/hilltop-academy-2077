@@ -1,0 +1,33 @@
+<div class="footer_social py-1 col-md-12 text-center">
+  <!-- Grid row -->
+  <div class="my-2">
+
+    <!-- Facebook -->
+    <a class="facebook">
+      <i class="fab fa-facebook-f fa-lg text-white mr-4"> </i>
+    </a>
+    <!-- Twitter -->
+    <a class="twitter">
+      <i class="fab fa-twitter fa-lg text-white mr-4"> </i>
+    </a>
+    <!-- Google +-->
+    <a class="google">
+      <i class="fab fa-google-plus-g fa-lg text-white mr-4"> </i>
+    </a>
+    <!--Linkedin -->
+    <a class="linkedin">
+      <i class="fab fa-linkedin-in fa-lg text-white mr-4"> </i>
+    </a>
+    <!--Instagram-->
+    <a class="instagram">
+      <i class="fab fa-instagram fa-lg text-white mr-4"> </i>
+    </a>
+    <!--Pinterest-->
+    <a class="pinterest">
+      <i class="fab fa-pinterest fa-lg text-white"> </i>
+    </a>
+
+  </div>
+  <!-- Grid row -->
+</div>
+<!-- Grid column -->

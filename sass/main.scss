@@ -1,0 +1,22 @@
+@import "__variable.scss";
+@import "__reset.scss";
+@import "__nav.scss";
+@import "__nav__mediaQuery.scss";
+@import "__nav__functions_classes.scss";
+@import "__nav__decor.scss";
+@import "__content.scss";
+@import "__content_two.scss";
+@import "__content_three.scss";
+@import "__gallery.scss";
+@import "__about.scss";
+@import "__strip.scss";
+@import "__contact_page.scss";
+@import "__cources.scss";
+@import "__pop_up.scss";
+
+
+/* font for body */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+/* font for Copyright */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');

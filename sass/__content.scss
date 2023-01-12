@@ -1,0 +1,110 @@
+.content__one{
+  display: flex;
+  flex-direction: column;
+  .row-1{
+    font-size: 20px;
+    text-align: center;
+  }
+  .row-2{
+    font-size: 30px;
+    text-align: center;
+  }
+  .content__one__body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    .content__one__body__message{
+      font-family: $body-font;
+      font-size: 15px;
+      h4{
+        font-size: 35px;
+        display: inline-block;
+        border-bottom: 1px solid rgba(106, 106, 106, 0.38);
+      }
+      .content__one__body__message__secction{
+        display: flex;
+        justify-content: space-between !important;
+        figure {
+          background-image: url("staff/principal_sir.JPEG");
+          background-size: cover;
+          background-position: center;
+          height: 380px;
+          width: 480px;
+          margin-top: 30px;
+          margin-right: 20px;
+          box-shadow: -4px 4px 14px 3px rgba(80, 80, 80, .44);
+          transition: all .5s;
+          &:hover {
+              transform: scale(1.03);
+          }
+        }
+        div{
+          margin-top: 20px;
+          width: 63%;
+        }
+        @media screen and (max-width: 1200px) {
+          figure{
+          margin-top: 60px;
+          }
+        }
+        @media screen and (max-width: 1080px) {
+          figure{
+            margin-top: 40px;
+            height: auto;
+            width: 480px;
+          }
+        }
+        @media screen and (max-width: 900px) {
+          flex-direction: column;
+          figure{
+          margin-top: 20px;
+          margin-right: 0px;
+          height: 400px;
+          width: 100%;
+          }
+          div{
+            width: 100%;
+          }
+        }
+        @media screen and (max-width: 450px) {
+          figure{
+            height: 280px;
+            width: auto;
+          }
+        }
+      }
+      @media screen and (max-width: 700px) {
+        h4{
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+.col_green{
+  color: green;
+  font-weight: bold;
+}
+
+
+/*content responsive*/
+@media screen and (max-width: 900px) {
+  .content__one{
+    .row-1{
+      font-size: 10px;
+      text-align: center;
+    }
+    .row-2{
+      font-size: 20px;
+      text-align: center;
+    }
+    .content__one__body{
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+}

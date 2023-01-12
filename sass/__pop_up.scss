@@ -1,0 +1,94 @@
+#popUpDiv{
+    height: 85vh;
+    width: 40%;
+    background-color: rgba($color: #000000, $alpha: .4);
+    position: fixed;
+    left: 25%;
+    bottom: 6vh;
+    animation: pop-up 2s;
+    transition: transform 1s;
+    z-index: 100;
+    figure{
+        background-image: url("bg_images/admission.png");
+        background-size: cover;
+        background-position: center;
+        height: 600px;
+        width: 600px;
+        margin-top: 3px;
+    }
+    #popUpCross{
+        float: right;
+        margin: 10px;
+        height: 30px;
+        width: 30px;
+        background-color: #019de6;
+        font-weight: bolder;
+        color: black;
+        border-radius: 25px;
+    }
+    @keyframes pop-up{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+}
+#popUpDiv:hover{
+    transform: scale(1.08);
+}
+
+//mobile responsive
+
+@media (max-width: 900px){
+    #popUpDiv{
+        height: 57.7vh;
+        width: 84%;
+        background-color: rgba($color: #000000, $alpha: .4);
+        position: fixed;
+        left: 8%;
+        bottom: 20vh;
+        figure{
+            height: 400px;
+            width: 400px;
+            margin-top: 3px;
+        }
+        #popUpCross{
+            float: right;
+            margin: 8px;
+            height: 30px;
+            width: 30px;
+            background-color: #019de6;
+            font-weight: bolder;
+            color: black;
+            border-radius: 25px;
+        }
+    }
+}
+
+@media (max-width: 450px){
+    #popUpDiv{
+        height: 41.4vh;
+        width: 84%;
+        background-color: rgba($color: #000000, $alpha: .4);
+        position: fixed;
+        left: 8%;
+        bottom: 30vh;
+        figure{
+            height: 300px;
+            width: 300px;
+            margin-top: 3px;
+        }
+        #popUpCross{
+            float: right;
+            margin: 8px;
+            height: 30px;
+            width: 30px;
+            background-color: #019de6;
+            font-weight: bolder;
+            color: black;
+            border-radius: 25px;
+        }
+    }
+}

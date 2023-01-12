@@ -1,0 +1,109 @@
+#admission-deal {
+    margin: 5px 0;
+    margin-top: 30px;
+    color: black;
+
+    h2 {
+        background-color: rgba(0,128,0,.55);
+        font-size: 35px;
+        color: white;
+        width: max-content;
+        padding: 10px;
+        padding-left: 200px;
+        padding-right: 100px;
+        margin-bottom: 15px;
+    }
+    @media (max-width: 900px){
+      h2 {
+          font-size: 20px;
+          color: white;
+          width: max-content;
+          padding: 8px;
+          padding-left: 10px;
+          padding-right: 5px;
+      }
+    }
+
+    @media (max-width: 350px){
+      h2 {
+        font-size: 15px;
+          padding: 8px;
+          padding-left: 5px;
+          padding-right: 5px;
+      }
+    }
+
+    #deal {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        @media (max-width: 900px){
+          display: flex;
+          flex-direction: column-reverse !important;
+        }
+
+        #deal-details {
+            width: 40%;
+            padding-left: 80px;
+            font-family: $body-font;
+            @media (max-width: 900px){
+              padding-left: 5px;
+              width: 90%;
+            }
+
+
+            h3 {
+                font-size: 36px;
+                &:hover {
+                    opacity: 1.2;
+                }
+            }
+
+            p {
+                font-size: 15px;
+                line-height: 180%;
+                margin: 20px 0 32px;
+            }
+
+
+            a {
+                display: inline-block;
+                text-decoration: none;
+                background-color: #275d99;
+                color: white;
+                padding: 8px;
+                padding-left: 15px;
+                padding-right: 15px;
+                font-size: 20px;
+                font-weight: bold;
+                border-radius: 8px;
+                box-shadow: -4px 4px 14px 3px rgba(80, 80, 80, .2);
+                transition: all .5s;
+                &:hover {
+                    transform: scale(1.1);
+                    background-color: #009ee7;
+                }
+            }
+        }
+
+
+        figure {
+            background-image: url("bg_images/img-1.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            width: 44%;
+            box-shadow: -4px 4px 14px 3px rgba(80, 80, 80, .44);
+            transition: all .5s;
+            &:hover {
+                transform: scale(1.06);
+            }
+            @media (max-width: 900px){
+              height: 200px;
+              width: 90%;
+            }
+        }
+
+
+    }
+}

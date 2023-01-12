@@ -1,0 +1,37 @@
+footer{
+  background-color: #282B3A;
+  color: #E6E7E9;
+}
+.div_img img{
+  height:100px;
+  width:auto;
+  padding: 2px 2px 2px 2px;
+  background-color: white;
+
+}
+
+#first__col,#second__col,#third__col{
+  position: relative;
+  animation: col__anim .7s;
+}
+
+
+@keyframes col__anim {
+  0%{
+    opacity: 0.1;
+    left: -400px;
+  }
+
+  100%{
+    opacity: 1;
+    left: 0;
+  }
+}
+
+
+/*li align left to align center*/
+@media screen and (max-width: 753px) {
+  footer{
+    text-align: center;
+  }
+}

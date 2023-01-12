@@ -1,0 +1,29 @@
+* , *:before, *:after{
+     box-sizing:border-box;
+     -moz-box-sizing:border-box;
+     -webkit-box-sizing:border-box;
+     -ms-box-sizing:border-box;
+   }
+
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+input,button{
+  outline: none;
+  border: none;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+
+}
+
+body {
+  margin: $top-gap .05rem .05rem .05rem;
+}

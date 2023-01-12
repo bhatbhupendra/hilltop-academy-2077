@@ -1,0 +1,239 @@
+#about_page {
+    margin: 10px 0;
+    margin-top: 100px;
+    color: black;
+
+    #about {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        #about_details {
+            width: 50%;
+            font-family: $body-font;
+
+            h3 {
+                display: inline-block;
+                font-size: 30px;
+                border-bottom: 2px solid rgba(106, 106, 106, 0.38);
+                &:hover {
+                    opacity: 1.2;
+                }
+            }
+
+            p {
+                font-size: 15px;
+                margin: 20px 0 32px;
+            }
+        }
+
+
+        figure {
+            background-image: url("photos/img-1.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 480px;
+            width: 40%;
+            box-shadow: -4px 4px 14px 3px rgba(80, 80, 80, .44);
+            transition: all .5s;
+            &:hover {
+                transform: scale(1.03);
+            }
+        }
+
+        @media (max-width: 900px){
+          flex-direction: column !important;
+          #about_details {
+              width: 85%;
+          }
+
+
+          figure {
+              height: 420px;
+              width: 90%;
+          }
+        }
+    }
+}
+
+
+/* the stuffs */
+.stuffs{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  .staffs-title{
+    padding-bottom: 15px;
+    text-align: center;
+    h2{
+      display: inline-block;
+      font-weight: bold;
+      border-bottom: 1px solid rgba(106, 106, 106, 0.38);
+    }
+  }
+  .stuffs-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    figure{
+      background-image: url("staff/janak-dhami.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 250px;
+      width: 250px;
+      border-radius:50%;
+    }
+
+  }
+  .stuffs-teachers-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    .stuffs-1{
+      padding: 15px 15px;
+
+      figure{
+        background-image: url("staff/siddaraj-thapa.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        width: 200px;
+        border-radius:50%;
+      }
+    }
+    .stuffs-2{
+      padding: 15px 15px;
+
+      figure{
+        background-image: url("staff/kabita.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        width: 200px;
+        border-radius:50%;
+      }
+    }
+    .stuffs-3{
+      padding: 15px 15px;
+
+      figure{
+        background-image: url("staff/anil.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        width: 200px;
+        border-radius:50%;
+      }
+    }
+    .stuffs-4{
+      padding: 15px 15px;
+
+      figure{
+        background-image: url("staff/gobind-rawal.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        width: 200px;
+        border-radius:50%;
+      }
+    }
+    .stuffs-5{
+      padding: 15px 15px;
+
+      figure{
+        background-image: url("staff/malati.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        width: 200px;
+        border-radius:50%;
+      }
+    }
+    .stuffs-6{
+      padding: 15px 15px;
+
+      figure{
+        background-image: url("staff/sabitri-thapa.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        width: 200px;
+        border-radius:50%;
+      }
+    }
+    .stuffs-7{
+      padding: 15px 15px;
+      figure{
+        background-image: url("staff/office-boy.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        width: 200px;
+        border-radius:50%;
+      }
+    }
+    .stuffs-8{
+      padding: 15px 15px;
+
+      figure{
+        background-image: url("staff/santoshi-khati.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        width: 200px;
+        border-radius:50%;
+      }
+    }
+    .stuffs-9{
+      padding: 15px 15px;
+
+      figure{
+        background-image: url("staff/sila-bist.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        width: 200px;
+        border-radius:50%;
+      }
+    }
+    .stuffs-10{
+      padding: 15px 15px;
+      
+      figure{
+        background-image: url("staff/radhika-mishra.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        width: 200px;
+        border-radius:50%;
+      }
+    }
+    .stuffs-11{
+      padding: 15px 15px;
+      
+      figure{
+        background-image: url("staff/umesh.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        width: 200px;
+        border-radius:50%;
+      }
+    }
+    .stuffs-12{
+      padding: 15px 15px;
+      
+      figure{
+        background-image: url("staff/pramita.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        width: 200px;
+        border-radius:50%;
+      }
+    }
+  }
+}

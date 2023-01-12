@@ -1,0 +1,240 @@
+.gallery{
+  .gallery_cover{
+
+    figure {
+        background-image: url("bg_images/bg-2.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        width: 100%;
+      }
+      h4{
+        display: inline-block;
+        position: relative;
+        bottom: 60px;
+        left: 5px;
+        padding: 5px;
+        font-weight: bold;
+        background-color: white;
+        border-radius: 8px;
+      }
+  }
+  .gallery_album_1{
+    display: flex;
+    flex-direction: column;
+    .gallery_album_1_name{
+      background-color: rgba(0,128,0,.55);
+      font-size: 35px;
+      color: white;
+      width: max-content;
+      padding: 5px;
+      padding-left: 210px;
+      padding-right: 15px;
+      /*mobile responsive*/
+      @media ( max-width: 450px){
+        font-size: 15px;
+        padding: 5px;
+      }
+    }
+    .gallery_album_1_photos{
+      margin: 40px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap:  wrap;
+      justify-content: space-between;
+      figure{
+        margin-left: 32px 0px;
+        height: 200px;
+        width: 24%;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px;
+        box-shadow: -4px 4px 14px 3px rgba(80, 80, 80, .2);
+        transition: all .5s;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+
+      figure:nth-of-type(1){ background-image: url("photos/school/p1.jpg");}
+      figure:nth-of-type(2){ background-image: url("photos/school/p2.jpg");}
+      figure:nth-of-type(3){ background-image: url("photos/school/p3.jpg");}
+      figure:nth-of-type(4){ background-image: url("photos/school/p4.jpg");}
+      figure:nth-of-type(5){ background-image: url("photos/school/p5.jpg");}
+      figure:nth-of-type(6){ background-image: url("photos/school/p6.jpg");}
+      figure:nth-of-type(7){ background-image: url("photos/school/p7.jpg");}
+      figure:nth-of-type(8){ background-image: url("photos/school/p3.jpg");}
+
+      /*mobile responsive medias*/
+      @media (max-width: 1200px){
+        figure{
+          width: 32%;
+        }
+      }
+      @media (max-width: 1000px){
+        figure{
+          width: 48%;
+        }
+      }
+      @media (max-width: 700px){
+        figure{
+          width: 100%;
+        }
+      }
+      @media (max-width: 450px){
+        figure{
+          height: 150px;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .gallery_album_2{
+    display: flex;
+    flex-direction: column;
+    .gallery_album_2_name{
+      background-color: rgba(0,128,0,.55);
+      font-size: 35px;
+      color: white;
+      width: max-content;
+      padding: 5px;
+      padding-left: 210px;
+      padding-right: 15px;
+      /*mobile responsive*/
+      @media ( max-width: 450px){
+        font-size: 10px;
+        padding: 5px;
+      }
+    }
+    .gallery_album_2_photos{
+      margin: 40px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap:  wrap;
+      justify-content: space-between;
+      figure{
+        margin-left: 32px 0px;
+
+        height: 180px;
+        width: 24%;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px;
+        box-shadow: -4px 4px 14px 3px rgba(80, 80, 80, .2);
+        transition: all .5s;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+
+      figure:nth-of-type(1){ background-image: url("photos/a/a1.jpg");}
+      figure:nth-of-type(2){ background-image: url("photos/a/a2.jpg");}
+      figure:nth-of-type(3){ background-image: url("photos/a/a3.jpg");}
+      figure:nth-of-type(4){ background-image: url("photos/a/a4.jpg");}
+      figure:nth-of-type(5){ background-image: url("photos/a/a5.jpg");}
+      figure:nth-of-type(6){ background-image: url("photos/a/a6.jpg");}
+      figure:nth-of-type(7){ background-image: url("photos/a/a7.jpg");}
+      figure:nth-of-type(8){ background-image: url("photos/a/a8.jpg");}
+      figure:nth-of-type(9){ background-image: url("photos/a/a9.jpg");}
+      figure:nth-of-type(10){ background-image: url("photos/a/a10.jpg");}
+      figure:nth-of-type(11){ background-image: url("photos/a/a11.jpg");}
+      figure:nth-of-type(12){ background-image: url("photos/a/a12.jpg");}
+      figure:nth-of-type(13){ background-image: url("photos/a/a13.jpg");}
+      figure:nth-of-type(14){ background-image: url("photos/a/a14.jpg");}
+      figure:nth-of-type(15){ background-image: url("photos/a/a15.jpg");}
+
+
+      @media (max-width: 1200px){
+        figure{
+          width: 32%;
+        }
+      }
+      @media (max-width: 1000px){
+        figure{
+          width: 48%;
+        }
+      }
+      @media (max-width: 700px){
+        figure{
+          width: 100%;
+        }
+      }
+    }
+  }
+  .gallery_album_3{
+    display: flex;
+    flex-direction: column;
+    .gallery_album_3_name{
+      background-color: rgba(0,128,0,.55);
+      font-size: 35px;
+      color: white;
+      width: max-content;
+      padding: 5px;
+      padding-left: 210px;
+      padding-right: 15px;
+      /*mobile responsive*/
+      @media ( max-width: 450px){
+        font-size: 15px;
+        padding: 5px;
+      }
+    }
+    .gallery_album_3_photos{
+      margin: 40px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap:  wrap;
+      justify-content: space-between;
+      figure{
+        margin-left: 32px 0px;
+        height: 200px;
+        width: 24%;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px;
+        box-shadow: -4px 4px 14px 3px rgba(80, 80, 80, .2);
+        transition: all .5s;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+
+      figure:nth-of-type(1){ background-image: url("photos/holi-78/p1.jpg");}
+      figure:nth-of-type(2){ background-image: url("photos/holi-78/p2.jpg");}
+      figure:nth-of-type(3){ background-image: url("photos/holi-78/p3.jpg");}
+      figure:nth-of-type(4){ background-image: url("photos/holi-78/p4.jpg");}
+      
+      /*mobile responsive medias*/
+      @media (max-width: 1200px){
+        figure{
+          width: 32%;
+        }
+      }
+      @media (max-width: 1000px){
+        figure{
+          width: 48%;
+        }
+      }
+      @media (max-width: 700px){
+        figure{
+          width: 100%;
+        }
+      }
+      @media (max-width: 450px){
+        figure{
+          height: 150px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
